@@ -1,0 +1,12 @@
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    margin: 0 auto;
+}
+@media screen and (min-width: 300px) and (max-width: 1023px) {
+    .page {
+        width: 320px;
+    }
+}

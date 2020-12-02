@@ -1,0 +1,9 @@
+.popup_opened {
+    display: block;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1023px) {
+    .popup_opened {
+        display: block;
+    }
+}

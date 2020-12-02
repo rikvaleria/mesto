@@ -1,0 +1,25 @@
+.button_type_save {
+    background: #000000;
+    border-radius: 2px;
+    width: 358px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 37px;
+    color: #FFFFFF;
+}
+.button_type_save:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1023px) {
+    .button_type_save {
+        width: 238px;
+        margin: 45px 22px 25px;
+    }
+}
