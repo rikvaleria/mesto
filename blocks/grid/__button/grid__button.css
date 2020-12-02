@@ -10,7 +10,10 @@
 }
 .grid__button:hover {
     opacity: 0.5;
+
 }
 .grid__button:active {
+    background-image: url("../../../images/Unionheart-black.svg");
+    opacity: 1;
 
 }
