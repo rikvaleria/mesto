@@ -1,0 +1,16 @@
+.grid__button {
+    background-image: url("../../../images/heart-disabled.svg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20.76px;
+    height: 18.13px;
+    margin-top: 7px;
+    border: none;
+}
+.grid__button:hover {
+    opacity: 0.5;
+}
+.grid__button:active {
+
+}
