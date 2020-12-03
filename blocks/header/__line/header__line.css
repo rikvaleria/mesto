@@ -1,3 +1,10 @@
 .header__line {
     opacity: 70%;
+    width: 880px;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 300px) {
+    .header__line {
+        width: 320px;
+    }
 }
