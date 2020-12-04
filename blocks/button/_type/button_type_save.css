@@ -3,17 +3,22 @@
     border-radius: 2px;
     width: 358px;
     height: 50px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
+
     margin-top: 48px;
     margin-bottom: 37px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
     color: #FFFFFF;
 }
 .button_type_save:hover {
     opacity: 0.8;
+    cursor: url("../../../images/Layer 1 1cursor.svg"), pointer;
+
 }
 
 
