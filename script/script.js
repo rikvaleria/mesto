@@ -10,8 +10,8 @@ let subtitleField = document.querySelector('.popup__input_type_job');
 
 function openPopup() {
     popup.classList.add('popup_opened');
-    profileTitle.textContent = titleField.value;
-    profileSubtitle.textContent = subtitleField.value;
+    titleField.value = profileTitle.textContent;
+    subtitleField.value = profileSubtitle.textContent;
 }
 
 function closePopup() {
