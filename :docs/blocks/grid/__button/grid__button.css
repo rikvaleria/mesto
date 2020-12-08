@@ -1,0 +1,21 @@
+.grid__button {
+    background-image: url("../../../images/heart-disabled.svg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20.76px;
+    height: 18.13px;
+    margin-top: 7px;
+    border: none;
+}
+.grid__button:hover {
+    opacity: 0.5;
+    cursor: url("../../../images/layer-cursor.svg"), pointer;
+
+
+}
+.grid__button:active {
+    background-image: url("../../../images/unionheart-black.svg");
+    opacity: 1;
+
+}
