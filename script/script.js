@@ -22,9 +22,10 @@ function submitForm(event) {
     event.preventDefault();
     profileTitle.textContent = titleField.value;
     profileSubtitle.textContent =subtitleField.value;
+    closePopup (buttonSave)
 }
 
 buttonEdit.addEventListener('click', openPopup);
 buttonClose.addEventListener('click', closePopup);
 openForm.addEventListener('click', submitForm);
-buttonSave.addEventListener('click', closePopup);
+
