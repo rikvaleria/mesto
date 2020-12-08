@@ -18,16 +18,14 @@
 .button_type_save:hover {
     opacity: 0.8;
     cursor: url("../../../images/layer-cursor.svg"), pointer;
-
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 1023px) {
     .button_type_save {
         width: 238px;
         font-size: 14px;
         line-height: 17px;
-        margin: 45px 22px 25px;
+        margin: 15px 22px 25px;
 
     }
 }
