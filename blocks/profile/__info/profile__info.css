@@ -1,7 +1,6 @@
 .profile__info {
-    margin-left: 28px;
-    margin-top: 22px;
-    /*border: coral solid 1px;*/
+    margin-left: 26px;
+    margin-top: 21px;
     display: flex;
     flex-direction: row;
     width: 336px;

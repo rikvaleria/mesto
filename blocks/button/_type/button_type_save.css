@@ -9,15 +9,15 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 22px;
     text-align: center;
 
     color: #FFFFFF;
 }
 .button_type_save:hover {
     opacity: 0.8;
-    cursor: url("../../../images/Layer 1 1cursor.svg"), pointer;
+    cursor: url("../../../images/layer-cursor.svg"), pointer;
 
 }
 
@@ -25,6 +25,9 @@
 @media screen and (min-width: 300px) and (max-width: 1023px) {
     .button_type_save {
         width: 238px;
+        font-size: 14px;
+        line-height: 17px;
         margin: 45px 22px 25px;
+
     }
 }

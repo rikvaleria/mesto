@@ -1,5 +1,5 @@
 .popup__container {
-    margin: 195px auto;
+    margin: auto;
     width: 430px;
     position: relative;
     background: #FFFFFF;
@@ -11,6 +11,5 @@
     .popup__container {
         width: 282px;
         z-index: 2;
-        margin-top: 149px;
     }
 }

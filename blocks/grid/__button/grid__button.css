@@ -10,12 +10,12 @@
 }
 .grid__button:hover {
     opacity: 0.5;
-    cursor: url("../../../images/Layer 1 1cursor.svg"), pointer;
+    cursor: url("../../../images/layer-cursor.svg"), pointer;
 
 
 }
 .grid__button:active {
-    background-image: url("../../../images/Unionheart-black.svg");
+    background-image: url("../../../images/unionheart-black.svg");
     opacity: 1;
 
 }
