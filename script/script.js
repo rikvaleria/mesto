@@ -1,7 +1,7 @@
 let popup = document.querySelector('.popup'); /*он открывает верстку попапа, если его удалить все ломается*/
 let buttonEdit = document.querySelector('.profile__btn-edit');
-let buttonClose = document.querySelector('.button_type_close');
-let buttonSave = document.querySelector('.button_type_save');
+let buttonClose = document.querySelector('.popup__close');
+let buttonSave = document.querySelector('.popup__save');
 let profileTitle = document.querySelector('.profile__title');
 let profileSubtitle = document.querySelector('.profile__subtitle');
 let openForm = document.querySelector('.popup__form');
