@@ -1,4 +1,4 @@
-let popup = document.querySelector('.popup'); /*он открывает верстку попапа, если его удалить все ломается*/
+let popup = document.querySelector('.popup');
 let buttonEdit = document.querySelector('.profile__btn-edit');
 let buttonClose = document.querySelector('.popup__close');
 let buttonSave = document.querySelector('.popup__save');
