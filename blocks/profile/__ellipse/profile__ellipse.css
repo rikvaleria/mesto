@@ -1,6 +1,7 @@
 .profile__ellipse {
     position: relative;
     width: 120px;
+    height: 120px;
     border-radius: 100px;
     background-image: url("../../../images/avatar-2.png");
     z-index: -1;

@@ -8,12 +8,10 @@ let titleField = document.querySelector('.popup__input_type_name');
 let subtitleField = document.querySelector('.popup__input_type_job');
 
 function openPopup() {
-    popup.classList.add('popup_opened');
     titleField.value = profileTitle.textContent;
     subtitleField.value = profileSubtitle.textContent;
+    popup.classList.add('popup_opened');
 }
-/* а здесь не совсем поняла "Форму лучше показать пользователю уже после заполнения полей".
-* как это реализовать? поменять порядок в функции?  popup.classList.add('popup_opened') вызвать в конце? */
 
 function closePopup() {
     popup.classList.remove('popup_opened');
@@ -29,6 +27,3 @@ function submitForm(event) {
 buttonEdit.addEventListener('click', openPopup);
 buttonClose.addEventListener('click', closePopup);
 openForm.addEventListener('submit', submitForm);
-/* если я верно поняла ваш комментарий по submit, то для того, чтобы форма
-* после заполнения закрывалась по нажатию  enter нужно было поменять кнопке "сохранить" тип кнопки
-* с "button" на "submit", да? (я так и сделала, но вдруг вы имели ввиду другое решение :) */
